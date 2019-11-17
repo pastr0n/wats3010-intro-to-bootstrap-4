@@ -1,1 +1,74 @@
 /* Site Styles Go Here */
+.bg-dark {
+        background-color: #343a40!important;
+    }
+
+.navbar-icon {
+    width: 48px;
+}
+
+.nav-link {
+    color:#333333;
+}
+body {
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.jumbotron {
+    background-color:#FCD318;
+    border-top:60px solid #FCD318;
+    margin-top:-60px;
+}
+
+.main-logo {
+    margin-bottom:20px;
+    margin-top:-40px;
+    width:200px;
+}
+.jumbotron-heading {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:;
+}
+.fl-subheader {
+    font-size:1.25rem;font-weight:300;
+    color:white;
+}
+.main-search {
+    width:100%;
+    float:center;
+}
+input[type=text] {
+    background-image: url('images/FL-search-icon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+input[type=text]:focus {
+    border: 3px solid #257FB1;
+  }
+
+.btn-tertiary {
+    color:#257FB1;
+}
+.btn-primary {
+    background-color:#257FB1;
+    border-radius:20px;
+}
+
+.row {
+    width:100%;
+}
+
+.portfolio-item {
+    border-radius:none;
+    background-color:;
+    margin-bottom:20px;
+}
+.card-img-top img {
+    border-radius:0px;
+}
+
+.m-0 {
+    color:#333;
+}

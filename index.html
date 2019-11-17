@@ -10,7 +10,7 @@
 
   <meta name="description" content="FirstLook Search Engine">
   <meta name="author" content="Aviel Pastron">
-  
+
 
   <title>FirstLook</title>
   <link rel='icon' href='images/favicon.png' type='image/x-icon' />
@@ -33,38 +33,48 @@
 
 <body>
 
-  <!-- (1)Navigation -->
-  <!-- TODO implement responsive navigation that matches your IA design -->
-  <!-- TODO put this nav on every page -->
-  
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light fixed-top" style="background-color:#fcd318;">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-          <img class="navbar-icon" src="images/FL-icon.png" alt="">
-        </a>
-        <a class="nav-link" href="resources.html">Resources</a>
-        <a class="nav-link" href="about.html">About</a>
-        <a class="nav-link" href="copyright.html">What is copyright?</a>
-        <ul class="navbar-nav ml-auto">
-          <li>
-              <a href="#" class="btn btn-primary my-2">Log in / Sign up</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light fixed-top" style="background-color:#fcd318;">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">FirstLook</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resources.html">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="copyright.html">What is copyright?</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link btn-primary" href="login.html">Log in / Sign up</a>
+                </li>
+             
+            </ul>
+            
+          </div>
+          
+        </div>
+      </nav>
 
-  <header>
+      
+
+      <!--Main Body-->
     <section class="jumbotron text-center">
       <div class="container">
         <a href="/"><img class="main-logo" src="images/FL-large-logo.png"></a>
         <h1 class="jumbotron-heading">THE WORLD IS YOURS.</h1>
         <p class="fl-subheader">Millions of assets, ready for use.
         </p>
-        <p class="main-search"> 
-          <input class="form-control" type="text" placeholder="Try “Chicago skyline”"aria-label="Search">
+        <p class="main-search">
+          <input class="form-control" type="text" placeholder="Try “Chicago skyline”" aria-label="Search">
         </p>
-      </p>
+        </p>
 
         <p>
           <a href="#" class="btn btn-primary my-2">Sort by license <i class="fa fa-caret-down" aria-hidden="true"></i>
@@ -107,11 +117,11 @@
         <div class="portfolio-item col-sm-6 col-md-4">
           <img class="card-img-top" src="images/osaka.jpg" alt="">
         </div>
-        
-          </div>
-        </div>
+
       </div>
-      <!-- /.row -->
+    </div>
+    </div>
+    <!-- /.row -->
     <!-- /.container -->
 
     <!-- Footer -->

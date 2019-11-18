@@ -14,7 +14,6 @@
 
 .nav-link .btn-primary a {
     color: white;
-    background-color: red;
 }
 
 body {
@@ -87,4 +86,11 @@ input[type=text]:focus {
 
 .m-0 {
     color: #333;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
 }

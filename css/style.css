@@ -1,4 +1,6 @@
-/* Site Styles Go Here */
+.bg-light {
+    background-color: lightgrey;
+}
 .bg-dark {
     background-color: #343a40 !important;
 }
@@ -94,3 +96,13 @@ input[type=text]:focus {
 .alignright {
 	float: right;
 }
+
+footer {
+    line-height: 30px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 30px;
+ }
